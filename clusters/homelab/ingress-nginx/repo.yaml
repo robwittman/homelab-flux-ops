@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: ingress-nginx
-  labels:
-    istio-injection: enabled
+#  labels:
+#    istio-injection: enabled
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
