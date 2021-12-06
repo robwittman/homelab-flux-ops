@@ -25,3 +25,6 @@ spec:
     crds: Create
   upgrade:
     crds: CreateReplace
+  values:
+    args:
+      - --kubelet-insecure-tls
