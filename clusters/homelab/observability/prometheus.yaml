@@ -22,11 +22,6 @@ spec:
         datasources.yaml:
           apiVersion: 1
           datasources:
-            - name: Prometheus
-              type: prometheus
-              url: http://prometheus-kube-prometheus-prometheus.observability:9090/
-              access: proxy
-              isDefault: true
             - name: Loki
               type: loki
               url: http://loki.observability:3100
