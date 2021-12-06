@@ -32,3 +32,11 @@ spec:
     crds: Create
   upgrade:
     crds: CreateReplace
+    values:
+      controller:
+        metrics:
+          enabled: true
+          serviceMonitor:
+            enabled: true
+        service:
+          type: NodePort
